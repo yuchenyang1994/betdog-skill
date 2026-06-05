@@ -1,6 +1,8 @@
 # 🏆 赌狗.skill
 
 > 马无夜草不肥，人无横财不富。2026 世界杯来了，你懂什么叫梭哈吗？
+>
+> 支持 **OpenCode** / **Claude Code** / **Codex** / 任意 agent。
 
 ---
 
@@ -30,7 +32,10 @@ cp -r betdog-skill ~/.config/opencode/skills/
 # Claude Code 用户
 cp -r betdog-skill ~/.claude/skills/
 
-# 某个项目里用
+# Codex 用户 (OpenAI)
+cp -r betdog-skill ~/.codex/skills/
+
+# 其他 agent / 项目级
 cp -r betdog-skill .opencode/skills/
 cp -r betdog-skill .claude/skills/
 cp -r betdog-skill .agents/skills/
